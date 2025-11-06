@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<detectorList>
+	
+	<injectionMode type="eCircle">
+		<x unit="m"> 0 </x>
+		<y unit="m"> 0 </y>
+		<z unit="m"> 0 </z>
+		<radius unit="cm"> 0.2 </radius>
+		<height unit="cm"> 2 </height>
+	</injectionMode>
+
+	<!-- === Centellador principal === -->
+	<detector id="2" type="eScintillator">
+		<x unit="cm"> 0.0 </x>
+		<y unit="cm"> 2.0 </y>
+		<z unit="cm"> 0.0 </z>
+		<barLength unit="cm">8.0</barLength>
+		<barWidth unit="cm">4.0</barWidth>
+		<barThickness unit="cm">1.0</barThickness>
+		<coatingThickness unit="cm">0.01</coatingThickness>
+		<casingThickness unit="mm">0.0</casingThickness>
+		<claddingThickness unit="mm">0.0</claddingThickness>
+		<numberOfBars>1</numberOfBars>
+	</detector>
+
+        <detector id="1" type="eDummy">
+		<x unit="cm"> 0.0 </x>
+		<y unit="cm"> 0.0 </y>
+		<z unit="cm"> -0.55 </z>
+		<barLength unit="cm">1.0</barLength>
+		<barWidth unit="cm">1.0</barWidth>
+		<barThickness unit="cm">0.2</barThickness>
+		<numberOfBars>1</numberOfBars>
+	</detector>
+
+
+
+</detectorList>
